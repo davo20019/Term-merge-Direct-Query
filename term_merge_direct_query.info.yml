@@ -2,6 +2,9 @@ name: Term Merge by Direct SQL Queries
 description: Allows users to merge taxonomy terms in the same vocabulary together.
 core: 8.x
 type: module
+# core: 8.x
+dependencies:
+  - term_merge
 
 dependencies:
  - drupal:taxonomy
